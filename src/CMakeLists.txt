@@ -7,6 +7,8 @@ if (NOT MSVC)
   endif()
 endif()
 
+set(CMAKE_CXX_STANDARD 17)
+
 add_library(cpp_dependencies_lib STATIC
   Analysis.h
   CmakeRegen.h
